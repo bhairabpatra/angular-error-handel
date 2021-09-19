@@ -1,0 +1,7 @@
+<div class="container">
+  <button class="btn btn-primary mb-3 mt-3" (click)="getSecondData()">Get second data</button>
+  <div>{{ secondData }}</div>
+  <div *ngIf="errorMessage" class="error">
+    {{ errorMessage }}
+  </div>
+</div>
